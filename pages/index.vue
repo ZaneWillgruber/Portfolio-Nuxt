@@ -1,15 +1,16 @@
 <template>
 
   <div class="bg-white">
-    <Header />
+    <NamePlate />
   </div>
 </template>
 
 <script>
-import Header from '../components/Header.vue';
+import NamePlate from '../components/NamePlate.vue';
+import 'animate.css';
 
 export default {
   name: "IndexPage",
-  components: { Header }
+  components: { NamePlate }
 }
 </script>
