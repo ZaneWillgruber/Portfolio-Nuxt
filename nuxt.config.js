@@ -14,10 +14,7 @@ export default {
       { hid: 'description', name: 'description', content: '' },
       { name: 'format-detection', content: 'telephone=no' },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-            {rel: 'preconnect', href: 'https://fonts.googleapis.com'},
-            {rel: 'preconnect', href: 'https://fonts.gstatic.com'},
-            {rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Oxygen:wght@300&family=Viga&display=swap'}],
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -36,12 +33,30 @@ export default {
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
     '@nuxtjs/fontawesome',
+    '@nuxtjs/google-fonts',
   ],
 
   fontawesome: {
     icons: {
       solid: true,
       brands: true
+    }
+  },
+
+  googleFonts: {
+    families: {
+      // a simple name
+      Roboto: true,
+  
+      // a name with spaces
+      'Josefin+Sans': true,
+  
+      // specific font weights
+      Lato: true,
+
+      Oxygen: true,
+      Viga: true,
+      Arvo: true,
     }
   },
 
