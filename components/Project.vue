@@ -1,11 +1,19 @@
 <template>
     <div class="grid grid-cols-2 gap-4 h-screen ">
-        <div>
+        <div class="w-6/12">
 
         </div>
-        <div class="flex m-auto">
-            <img class="rellax object-scale-down h-48 w-96" data-rellax-speed="4" data-rellax-percentage=".025" src="~/assets/images/PHS_Splash.png" />
-            <img class="rellax object-scale-down h-48 w-96 ml-32" data-rellax-speed="10" src="~/assets/images/PHS_Splash.png" />
+        <div class="flex m-auto overflow-hidden">
+            <div class="rounded-xl shrink bg-gradient-to-r from-gray-900 to-gray-700 w-full m-2">
+                <div class="flex flex-col justify-between h-full p-4">
+                    <img class="rounded-lg m-auto" src="~/assets/images/PHS_Splash.png" />
+                </div>
+            </div>
+            <div class="rounded-xl shrink bg-gradient-to-r from-gray-900 to-gray-700 w-full m-2">
+                <div class="flex flex-col justify-between h-full p-4">
+                    <img class="rounded-lg m-auto" src="~/assets/images/PHS_Splash.png" />
+                </div>
+            </div>
         </div>
     </div>
 </template>

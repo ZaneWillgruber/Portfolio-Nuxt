@@ -1,6 +1,6 @@
 <template>
 
-  <div class="bg-primary">
+  <div class="bg-primary cursor">
     <NamePlate />
     <AboutMe />
     <ProjectDetails />
@@ -34,4 +34,5 @@ export default {
 .bg-primary {
   background-color: #F5F5DC;
 }
+
 </style>
