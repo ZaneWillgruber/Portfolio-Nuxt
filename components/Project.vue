@@ -4,15 +4,12 @@
 
         </div>
         <div class="flex m-auto overflow-hidden">
-            <div class="rounded-xl shrink bg-gradient-to-r from-gray-900 to-gray-700 w-full m-2">
-                <div class="flex flex-col justify-between h-full p-4">
-                    <img class="rounded-lg m-auto" src="~/assets/images/PHS_Splash.png" />
-                </div>
+            <div class="absolute max-h-64 ">
+                <img class="rounded-lg m-auto max-h-64 rellax" data-rellax-speed="4" data-rellax-percentage="0.5"
+                    src="~/assets/images/PHS_Splash.png" />
             </div>
-            <div class="rounded-xl shrink bg-gradient-to-r from-gray-900 to-gray-700 w-full m-2">
-                <div class="flex flex-col justify-between h-full p-4">
-                    <img class="rounded-lg m-auto" src="~/assets/images/PHS_Splash.png" />
-                </div>
+            <div class="">
+                <img class="rounded-lg m-auto" src="~/assets/images/PHS_Splash.png" />
             </div>
         </div>
     </div>
